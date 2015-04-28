@@ -133,8 +133,8 @@ img.grayscale {
 }
 
 .alt.affix {
-  background-color: black;
-}
+  background-color: #2A2C2B;
+} /*color of navbar after half */
 
 .alt li a:hover, .alt li.active {
   background-color: #3F4140;
@@ -143,12 +143,11 @@ img.grayscale {
 
 .blurb {
   padding: 120px 0;
-  background-color:#fefefe;
+  background-color: none;
+  background-image: url(../img/concrete_seamless.png);
+  background-repeat: repeat;
 }
 
-.blurb .panel {
-  background-color:transparent;
-}
 
 .bright {
   background: #dbdbdb url('http://www.bootply.com/assets/example/pt_topo.png') repeat center center fixed; 
