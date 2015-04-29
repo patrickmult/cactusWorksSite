@@ -31,43 +31,20 @@ img.grayscale {
     -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
 
+.namespan {
+  color: orange;
+}
+
+.placespan {
+  color: #476CFF;
+}
+
 .icon-bar {
    background-color:#fff;
 }
 
 .scroll-down a, .scroll-top a {
    color:#ffffff;
-}
-
-.scroll-down {
-   position:fixed;
-   bottom:20%;
-   right:0%;
-   color:#f9f9f9;
-}
-
-.scroll-top {
-  background-color:#dbdbdb;
-}
-
-.vert {
-  vertical-align: middle;
-  width:100%;
-  padding-top:4%;
-  text-align:center;
-}
-
-.header .btn-lg {
-   font-size:28px;
-   border-color:#eeeeee;
-   padding:15px;
-   background-color:transparent;
-   color:#ffffff;
-}
-
-.header .btn-lg:hover {
-   background-color:#eeeeee;
-   color:#777777;
 }
 
 .navbar a {
@@ -88,16 +65,55 @@ img.grayscale {
   background-color:#d46054;
 }
 
-.header h1 {
-  font-size:60px;
-  -webkit-text-stroke: 1px rgba(f,f,f,0.1);
-  color:#431a6d;
-  color:#fff;
-  margin-left:-5px;
-  margin-bottom:5px;
-  text-transform:uppercase;
+.scroll-down {
+   position:fixed;
+   bottom:20%;
+   right:0%;
+   color:#f9f9f9;
+}
+
+.scroll-top {
+  background-color:#dbdbdb;
+}
+
+.vert {
+  vertical-align: middle;
+  width:100%;
+  padding-top:4%;
+  text-align:center;
+}
+
+.header {
+  height: 83%;
+  background-image: url(../img/footer_lodyas.png);
+  /*
+  background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.6), black), url(../img/1929397.jpg);
+  */
+}
+
+.header p a {
+  text-decoration: underline;
+}
+
+.header .btn-lg {
+   font-size:28px;
+   border-color:#eeeeee;
+   padding:15px;
+   background-color:transparent;
+   color:#EAEAEA;
+   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.42);
+}
+
+.header .btn-lg:hover {
+   background-color:#eeeeee;
+   color:black;
+}
+
+.homehead {
+  font-size: 60px;
+  color: #EAEAEA;
   text-align: left;
-  text-shadow:10px 10px black;
+  text-shadow: 5px 5px black;
 }
 
 .findme {
@@ -112,17 +128,6 @@ img.grayscale {
   color:#d46054;
   font-size:25px;
   text-shadow:3px 3px black;
-}
-
-.header {
-  height: 80%;
-  /*
-  background-image: url(../img/mountainbg.jpg);
-  background-position: bottom center;
-  background-size: auto;
-  background-repeat: no-repeat;
-  */
-  background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.6), black), url(../img/1929397.jpg);
 }
 
 /* use alt in navbar and header for different color */
