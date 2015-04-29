@@ -31,25 +31,24 @@ img.grayscale {
     -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
 
-.namespan {
-  color: orange;
-}
 
-.placespan {
-  color: #476CFF;
-}
+/*navbar section*/
 
 .icon-bar {
    background-color:#fff;
 }
 
-.scroll-down a, .scroll-top a {
-   color:#ffffff;
-}
-
 .navbar a {
   color:#fff;
   font-size:14px;
+}
+
+#navbar a:hover {
+  color: white;
+}
+
+.nav a:hover{
+  color:#333;
 }
 
 .navbar-bold.affix {
@@ -65,6 +64,27 @@ img.grayscale {
   background-color:#d46054;
 }
 
+/* use alt in navbar and header for different color*/
+.alt {
+  background-color: #2A2C2B;
+} 
+/*navbar color when it is at top */
+.alt .lead {
+  color: white;
+  text-align: left;
+}
+
+/*color of navbar after half */
+.alt.affix {
+  background-color: #2A2C2B;
+} 
+
+.alt li a:hover, .alt li.active {
+  background-color: #3F4140;
+} /* color of active navbar link*/
+
+/*scroll buttons */
+
 .scroll-down {
    position:fixed;
    bottom:20%;
@@ -73,8 +93,18 @@ img.grayscale {
 }
 
 .scroll-top {
-  background-color:#dbdbdb;
+  background-color:#333;
 }
+
+ul.scroll-down {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.scroll-down a, .scroll-top a {
+   color:#ffffff;
+}
+
+/*header*/
 
 .vert {
   vertical-align: middle;
@@ -93,6 +123,14 @@ img.grayscale {
 
 .header p a {
   text-decoration: underline;
+}
+
+.namespan {
+  color: orange;
+}
+
+.placespan {
+  color: #476CFF;
 }
 
 .header .btn-lg {
@@ -129,25 +167,6 @@ img.grayscale {
   font-size:25px;
   text-shadow:3px 3px black;
 }
-
-/* use alt in navbar and header for different color */
-
-.alt {
-  background-color: #2A2C2B;
-} /* navbar color when it is at top */
-
-.alt .lead {
-  color: white;
-  text-align: left;
-}
-
-.alt.affix {
-  background-color: #2A2C2B;
-} /*color of navbar after half */
-
-.alt li a:hover, .alt li.active {
-  background-color: #3F4140;
-} /* color of active navbar link*/
 
 .blurb {
   padding: 120px 0;
@@ -211,6 +230,11 @@ img.grayscale {
 
 footer {
   padding: 50px 0;
+}
+
+.fuuter {
+  background-color: #333;
+  color: #EAEAEA;
 }
 
 /* -- end custom css for Bootstrap 3.x --*/
