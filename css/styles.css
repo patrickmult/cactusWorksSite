@@ -34,6 +34,7 @@ img.grayscale {
 
 /*navbar section*/
 
+
 .icon-bar {
    background-color:#fff;
 }
@@ -64,24 +65,22 @@ img.grayscale {
   background-color:#d46054;
 }
 
-/* use alt in navbar and header for different color*/
+
+/*navbar color*/
 .alt {
-  background-color: #2A2C2B;
+  background-color: rgba(0, 0, 0, 0.4);
 } 
-/*navbar color when it is at top */
+
 .alt .lead {
   color: white;
   text-align: left;
 }
 
-/*color of navbar after half */
-.alt.affix {
-  background-color: #2A2C2B;
-} 
-
+/* color of active navbar link*/
 .alt li a:hover, .alt li.active {
   background-color: #3F4140;
-} /* color of active navbar link*/
+} 
+
 
 /*scroll buttons */
 
@@ -169,6 +168,7 @@ ul.scroll-down {
 
 .blurb {
   padding: 120px 0;
+  padding-bottom: 200px;
   background-color: none;
   background-image: url(../img/concrete_seamless.png);
   background-repeat: repeat;
@@ -182,7 +182,7 @@ ul.scroll-down {
 
 .featurette {
   background: #222334;
-  padding: 50px 0;
+  padding: 100px 0;
   color: #ffffff;
 }
 
