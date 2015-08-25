@@ -153,6 +153,8 @@ ul.scroll-down {
   text-shadow: 5px 5px black;
 }
 
+/* sort later */
+
 .findme {
   padding-top:50px;
 }
@@ -235,5 +237,6 @@ footer {
   background-color: #333;
   color: #EAEAEA;
 }
+
 
 /* -- end custom css for Bootstrap 3.x --*/
